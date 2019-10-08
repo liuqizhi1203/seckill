@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seckill-interface/seckill-interface.iml" filepath="$PROJECT_DIR$/seckill-interface/seckill-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-services/seckill-services.iml" filepath="$PROJECT_DIR$/seckill-services/seckill-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-web1/seckill-web1.iml" filepath="$PROJECT_DIR$/seckill-web1/seckill-web1.iml" />
+    </modules>
+  </component>
+</project>

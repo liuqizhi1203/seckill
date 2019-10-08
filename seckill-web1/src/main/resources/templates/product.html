@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:inline="text">
+<div th:each="secKillProduct:${productList}" th:style="${secKillProductStat.count%5==0 ? 'clear:both;float:left;width:285px;margin:18px;' : 'float:left;width:285px;margin:18px;'}">
+    <a th:href="@{'/seckill/detail/'+${secKillProduct.id}}" target="_blank">
+        <img th:src="@{${secKillProduct.imageurl}}">
+    </a>
+    <br>
+
+    <a th:href="@{'/seckill/detail/'+${secKillProduct.id}}" target="_blank">
+        [[${secKillProduct.name}]] [[${secKillProduct.namedesc}]]
+    </a>
+    <br>
+
+    <span style="color: red;font-size:20px;font-weight: bold;">[[${secKillProduct.price}]]</span> 剩余[[${secKillProduct.store}]]件
+</div>
+
+</body>
+</html>

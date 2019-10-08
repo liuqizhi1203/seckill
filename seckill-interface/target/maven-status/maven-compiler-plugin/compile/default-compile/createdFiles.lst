@@ -1,0 +1,10 @@
+com\bjpowernode\seck\model\OrdersExample.class
+com\bjpowernode\seck\model\Orders.class
+com\bjpowernode\seck\model\Product.class
+com\bjpowernode\seck\model\ProductExample.class
+com\bjpowernode\seck\model\OrdersExample$Criteria.class
+com\bjpowernode\seck\model\OrdersExample$Criterion.class
+com\bjpowernode\seck\model\ProductExample$Criteria.class
+com\bjpowernode\seck\model\ProductExample$Criterion.class
+com\bjpowernode\seck\model\OrdersExample$GeneratedCriteria.class
+com\bjpowernode\seck\model\ProductExample$GeneratedCriteria.class
